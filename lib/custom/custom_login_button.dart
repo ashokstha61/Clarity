@@ -6,6 +6,7 @@ class CustomLoginButton extends StatelessWidget {
   final VoidCallback onPressed;
 
   const CustomLoginButton({
+    super.key,
     required this.imagePath,
     required this.label,
     required this.onPressed,

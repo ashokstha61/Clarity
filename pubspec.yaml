@@ -31,11 +31,14 @@ dependencies:
   flutter:
     sdk: flutter
   smooth_page_indicator: ^1.2.1
-
+  google_fonts: ^6.2.1
+  font_awesome_flutter: ^10.8.0
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   wrapper: ^1.0.2
+  rename: ^3.1.0
+  rename_app: ^1.6.5
 
 dev_dependencies:
   flutter_test:
@@ -68,6 +71,21 @@ flutter:
     - assets/images/LoginPageImage.png
     - assets/images/apple.png
     - assets/images/google.png
+    - assets/images/himage/guitar.png
+    - assets/images/himage/keyboard.png
+    - assets/images/himage/leaves.png
+    - assets/images/himage/love.png
+    - assets/images/himage/lullaby.png
+    - assets/images/himage/piano.png
+    - assets/images/himage/rain.png
+    - assets/images/himage/thunder.png
+    - assets/images/himage/snow.png
+    - assets/images/himage/forest.png
+    - assets/images/himage/fire.png
+    - assets/images/himage/wave.png
+    - assets/images/himage/wind.png
+    - assets/images/himage/meditation.png
+    - assets/images/himage/sensory.png
     # - assets/images/image 239-4.png
     # - assets/images/image 239-5.png
 

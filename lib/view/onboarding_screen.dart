@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sleep_less/view/login_screen.dart';
+import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({super.key});
@@ -89,19 +90,22 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             ),
 
             SizedBox(height: 20),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: List.generate(
-                _onboardingData.length,
-                (index) => circularIndicator(index == _currentPage),
+
+            SmoothPageIndicator(
+              controller: _pageController,
+              count: _onboardingData.length,
+              effect: ExpandingDotsEffect(
+                activeDotColor: Color.fromRGBO(29, 172, 146, 1),
               ),
             ),
+
             SizedBox(height: 20),
-            ButtonTheme(
+            SizedBox(
+              width: 334,
+              height: 91,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Color.fromRGBO(29, 172, 146, 1),
-                  padding: EdgeInsets.symmetric(horizontal: 159, vertical: 22),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12),
                   ),
@@ -130,6 +134,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 ),
               ),
             ),
+
             TextButton(
               onPressed: () {},
               child: Text(
