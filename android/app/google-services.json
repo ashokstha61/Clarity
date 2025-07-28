@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "536456729301",
+    "project_id": "aura-5fcbb",
+    "storage_bucket": "aura-5fcbb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536456729301:android:ed8fce583a21cbfeea485c",
+        "android_client_info": {
+          "package_name": "com.example.clarity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI-i2cVYHUNdx9Pgg843DWP4A7qPd-4FM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
